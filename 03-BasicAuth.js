@@ -1,8 +1,8 @@
 var http = require('http');
 var url = require('url');
 var crypto = require("crypto");
-var port = process.env.PORT || 8081;
 var process = require('process');
+var port = process.env.PORT || 8081;
 
 http.createServer(function (request, response) {
    // Send the HTTP header 
